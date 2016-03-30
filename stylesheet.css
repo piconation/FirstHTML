@@ -1,0 +1,12 @@
+html {
+    background: url(images/chip.jpg) no-repeat center 100% auto;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+}
+#navbar {color:}
+
+#header {font: 200; font-family: Tahoma;}
+
+#navbar {color:blue}
