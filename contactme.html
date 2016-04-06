@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="stylesheet.css">
     <title>CONTACT INFO FOR MATT POWELL</title>
 </head>
@@ -13,16 +15,19 @@
     <IMG SRC="images/jim.jpg" ALT="MY PIC" width="142" height="162">
     <ul>
         <div id="navbar">
-            <button class="button" onclick="location.href='./index.html'">HOME</button>
-            <button class="button" onclick="location.href='./about.html'">ABOUT ME</button>
-            <button class="button" onclick="location.href='./experience.html'">EXPERIENCE</button>
-            <button class="button" onclick="location.href='./accomplishments.html'">ACCOMPLISHMENTS</button>
-            <button class="button" onclick="location.href='./abilities.html'">ABILITIES</button>
-            <button class="button" onclick="location.href='./contactme.html'">CONTACT ME</button>
+            <button class="button" onclick="location.href='./index.html'" style="cursor: pointer">HOME</button>
+            <button class="button" onclick="location.href='./about.html'" style="cursor: pointer">ABOUT ME</button>
+            <button class="button" onclick="location.href='./experience.html'" style="cursor: pointer">EXPERIENCE</button>
+            <button class="button" onclick="location.href='./accomplishments.html'" style="cursor: pointer">ACCOMPLISHMENTS</button>
+            <button class="button" onclick="location.href='./abilities.html'" style="cursor: pointer">ABILITIES</button>
+            <button class="button" onclick="location.href='./contactme.html'" style="cursor: pointer">CONTACT</button>
         </div>
     </ul>
         <br>
         <p>Please enter your contact information below:</p><br>
+    <div style="width: 400px; margin: 0 auto; position: fixed; left: 0; text-align: right; font-size: 100px">
+        <i class="fa fa-share fa-flip-vertical"></i>
+    </div>
         <div style="width: 240px; margin: 0 auto; text-align: right; content: center;">
             <form method="get">
                 <label for="firstName">First Name: </label><input id="firstName" name="first" required minlength="2"><br><br>
