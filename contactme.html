@@ -2,32 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <style>
-        html {
-            background: url(images/whiteroom.jpg) no-repeat center;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-size: cover;
-        }
-    </style>
+    <link rel="stylesheet" href="stylesheet.css">
     <title>CONTACT INFO FOR MATT POWELL</title>
 </head>
+<body>
 <div style="text-align: center;">
     <h1>
-        <div id="header">HERE'S HOW TO CONTACT MATT POWELL</div>
+        <div id="header">"TALK TO ME GOOSE"</div>
     </h1>
-    <IMG SRC="images/the_joker.png" ALT="MY PIC" width="132" height="162">
-    <body>
+    <IMG SRC="images/jim.jpg" ALT="MY PIC" width="142" height="162">
     <ul>
         <div id="navbar">
-            <a href="./index.html">HOME</a>
-            <a href="./bio.html">BIO</a>
-            <a href="./experience.html">EXPERIENCE</a>
-            <a href="./accomplishments.html">ACCOMPLISHMENTS</a>
-            <a href="./abilities.html">ABILITIES</a>
-            <a href="contactme.html">CONTACT</a>
+            <button class="button" onclick="location.href='./index.html'">HOME</button>
+            <button class="button" onclick="location.href='./about.html'">ABOUT ME</button>
+            <button class="button" onclick="location.href='./experience.html'">EXPERIENCE</button>
+            <button class="button" onclick="location.href='./accomplishments.html'">ACCOMPLISHMENTS</button>
+            <button class="button" onclick="location.href='./abilities.html'">ABILITIES</button>
+            <button class="button" onclick="location.href='./contactme.html'">CONTACT ME</button>
         </div>
+    </ul>
+        <br>
+        <p>Please enter your contact information below:</p><br>
+        <div style="width: 240px; margin: 0 auto; text-align: right; content: center;">
+            <form method="get">
+                <label for="firstName">First Name: </label><input id="firstName" name="first" required minlength="2"><br><br>
+                <label for="lastName">Last Name: </label><input id="lastName" name="last" required minlength="2"><br><br>
+                <label for="email">Email Address: </label><input id="email" name="email" required="@" required=".com" ".org" ".edu"><br><br>
+                <label for="cell">Cell Phone: </label><input id="cell" name="cell" required minlength="10"><br><br>
+            </form>
+            </div>
+    <input type="submit" class="button" onclick="alert('Your email has been sent to us. Thank you. We will contact you shortly.')" value="Submit">
+    </div>
+</body>
 
-        <body>This is my contact info.</body>
 </html>

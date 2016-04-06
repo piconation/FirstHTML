@@ -1,12 +1,76 @@
-html {
-    background: url(images/chip.jpg) no-repeat center 100% auto;
-    -webkit-background-size: 100% auto;
-    -moz-background-size: 100% auto;
-    -o-background-size: 100% auto;
-    background-size: 100% auto;
+
+
+#whiteroom {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
 }
-#navbar {color:}
+
+.button {
+    background-color: darkblue;
+    box-shadow: 0px 6px 5px black;
+    border-radius: 20px;
+    margin-right: 20px;
+    color: white;
+    font-size: medium;
+    padding: 10px;
+}
 
 #header {font: 200; font-family: Tahoma;}
 
-#navbar {color:blue}
+#footer {
+    position: inherit;
+    bottom:0;
+    width:99%;
+    height:30px;
+}
+
+#navbar {
+    <button class="button" onclick="location.href='./index.html'">HOME</button>
+    <button class="button" onclick="location.href='./about.html'">ABOUT ME</button>
+    <button class="button" onclick="location.href='./experience.html'">EXPERIENCE</button>
+    <button class="button" onclick="location.href='./accomplishments.html'">ACCOMPLISHMENTS</button>
+    <button class="button" onclick="location.href='./abilities.html'">ABILITIES</button>
+    <button class="button" onclick="location.href='./contactme.html'">CONTACT</button>
+}
+
+#h1 {
+    font-family: 'Indie Flower', normal400;
+}
+
+body {
+    color:darkblue;
+}
+
+.dbluefont {
+    color:darkblue;
+}
+
+#caption{
+    color:red;
+}
+
+html {
+    background: url(images/whiteroom.jpg) no-repeat top left;
+    background-size: cover;
+    min-height: 100%;
+    min-width: 100%;
+    background-attachment: fixed;
+}
+
+#email{
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
