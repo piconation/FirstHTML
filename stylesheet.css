@@ -1,5 +1,4 @@
 
-
 #whiteroom {
     position: fixed;
     top: 0;
@@ -20,7 +19,9 @@
     padding: 10px;
 }
 
-#header {font: 200; font-family: Tahoma;}
+#header {
+    font-size: 40px; font-family: Tahoma;
+}
 
 #footer {
     position: inherit;
@@ -30,12 +31,7 @@
 }
 
 #navbar {
-    <button class="button" onclick="location.href='./index.html'">HOME</button>
-    <button class="button" onclick="location.href='./about.html'">ABOUT ME</button>
-    <button class="button" onclick="location.href='./experience.html'">EXPERIENCE</button>
-    <button class="button" onclick="location.href='./accomplishments.html'">ACCOMPLISHMENTS</button>
-    <button class="button" onclick="location.href='./abilities.html'">ABILITIES</button>
-    <button class="button" onclick="location.href='./contactme.html'">CONTACT</button>
+
 }
 
 #h1 {
@@ -50,10 +46,6 @@ body {
     color:darkblue;
 }
 
-#caption{
-    color:red;
-}
-
 html {
     background: url(images/whiteroom.jpg) no-repeat top left;
     background-size: cover;
@@ -66,7 +58,31 @@ html {
     color: blue;
 }
 
+@keyframes mypic {
+    from {opacity: 0.0}
+    to {opacity: 1.0}
+}
 
+#mypic {
+    animation-name: mypic;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+}
+#mypic {
+    width: 225px;
+    height: 250px;
+    transition: width 0.5s, height 0.5s;
+}
+
+#mypic:hover {
+    width: 450px;
+    height: 500px;
+}
+
+.flex-container {
+    display: flex;
+
+}
 
 
 
