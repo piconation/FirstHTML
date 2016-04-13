@@ -65,23 +65,16 @@ html {
 
 #mypic {
     animation-name: mypic;
+    transition-delay: 2s;
     animation-duration: 3s;
     animation-timing-function: ease;
-}
-
-#mypic {
     width: 200px;
     height: 225px;
-    transition: width 0.3s, height 0.3s;
 }
 
 #mypic:hover {
     width: 500px;
     height: 562px;
-}
-
-.flex-container {
-    display: flex;
 }
 
 @media screen and (max-width: 1000px) {
@@ -99,4 +92,13 @@ html {
     padding-right: 50px;
 }
 
-
+.wrapper {
+    display: flex;
+    display: -webkit-flex;
+    width: 1000px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-basis: auto;
+    flex-direction: row;
+}

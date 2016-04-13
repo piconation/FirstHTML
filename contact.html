@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>CONTACT INFO FOR MATT POWELL</title>
+</head>
+<body>
+<div style="text-align: center;">
+    <h1>
+        <div id="header">"TALK TO ME GOOSE"</div>
+    </h1>
+    <IMG SRC="images/jim.jpg" id='mypic' ALT="MY PIC">
+    <ul>
+        <div id="navbar">
+            <button class="button" onclick="location.href='./index.html'" style="cursor: pointer">HOME</button>
+            <button class="button" onclick="location.href='./about.html'" style="cursor: pointer">ABOUT ME</button>
+            <button class="button" onclick="location.href='portfolio.html'" style="cursor: pointer">EXPERIENCE</button>
+            <button class="button" onclick="location.href='resume.html'" style="cursor: pointer">ACCOMPLISHMENTS</button>
+            <button class="button" onclick="location.href='sitemap.html'" style="cursor: pointer">ABILITIES</button>
+            <button class="button" onclick="location.href='./contact.html'" style="cursor: pointer">CONTACT</button>
+        </div>
+    </ul>
+    <form method="get"><br>
+        <p>How good is my website?</p>
+        <label>1</label> <input type="radio" id="1" name="rate" value="1" onclick="alert('Thank you for taking my survey, but only if you gave me an 8 or higher.')" value="Submit">
+        <label>2</label> <input type="radio" id="2" name="rate" value="2">
+        <label>3</label> <input type="radio" id="3" name="rate" value="3">
+        <label>4</label> <input type="radio" id="4" name="rate" value="4">
+        <label>5</label> <input type="radio" id="5" name="rate" value="5">
+        <label>6</label> <input type="radio" id="6" name="rate" value="6">
+        <label>7</label> <input type="radio" id="7" name="rate" value="7">
+        <label>8</label> <input type="radio" id="8" name="rate" value="8">
+        <label>9</label> <input type="radio" id="9" name="rate" value="9">
+        <label>10</label> <input type="radio" id="10" name="rate" value="10"><br><br>
+        </form>
+        <br>
+        <p>Please enter your contact information below:</p>
+        <div style="width: 500px; margin: 0 auto; text-align: right; position: relative;">
+        <img src="images/downarrow.jpg" id='downarrow' alt="downarrow">
+            </div>
+        <div style="width: 240px; margin: 0 auto; text-align: right; content: center;">
+            <form method="get">
+                <label for="firstName">First Name: </label> <input id="firstName" name="first" placeholder="Enter your first name" required minlength="2"><br><br>
+                <label for="lastName">Last Name: </label> <input id="lastName" name="last" placeholder="Enter your last name" required minlength="2"><br><br>
+                <label for="email">Email Address: </label> <input id="email" name="email" placeholder="Enter your email address" required="@" required=".com .org .edu"><br><br>
+                <label for="cell">Cell Phone: </label> <input id="cell" name="cell" placeholder="Enter your cell number" required numeric minlength="10"><br><br>
+            </form>
+            </div>
+    <input type="submit" class="button" onclick="alert('Your email has been sent to us. Thank you. We will contact you shortly.')" value="Submit"><br><br>
+    </div>
+</body>
+</html>
