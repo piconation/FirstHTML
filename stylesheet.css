@@ -102,3 +102,8 @@ html {
     flex-basis: auto;
     flex-direction: row;
 }
+
+.modal-body {
+    font-size: 30px;
+    text-align: center;
+}

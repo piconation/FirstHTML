@@ -1,43 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <title>CONTACT INFO FOR MATT POWELL</title>
 </head>
 <body>
-<div style="text-align: center;">
-    <h1>
-        <div id="header">"TALK TO ME GOOSE"</div>
-    </h1>
-    <IMG SRC="images/jim.jpg" id='mypic' ALT="MY PIC">
-    <ul>
-        <div id="navbar">
-            <button class="button" onclick="location.href='./index.html'" style="cursor: pointer">HOME</button>
-            <button class="button" onclick="location.href='./about.html'" style="cursor: pointer">ABOUT ME</button>
-            <button class="button" onclick="location.href='portfolio.html'" style="cursor: pointer">EXPERIENCE</button>
-            <button class="button" onclick="location.href='resume.html'" style="cursor: pointer">ACCOMPLISHMENTS</button>
-            <button class="button" onclick="location.href='sitemap.html'" style="cursor: pointer">ABILITIES</button>
-            <button class="button" onclick="location.href='./contact.html'" style="cursor: pointer">CONTACT</button>
-        </div>
-    </ul>
-    <form method="get"><br>
-        <p>How good is my website?</p>
-        <label>1</label> <input type="radio" id="1" name="rate" value="1" onclick="alert('Thank you for taking my survey, but only if you gave me an 8 or higher.')" value="Submit">
-        <label>2</label> <input type="radio" id="2" name="rate" value="2">
-        <label>3</label> <input type="radio" id="3" name="rate" value="3">
-        <label>4</label> <input type="radio" id="4" name="rate" value="4">
-        <label>5</label> <input type="radio" id="5" name="rate" value="5">
-        <label>6</label> <input type="radio" id="6" name="rate" value="6">
-        <label>7</label> <input type="radio" id="7" name="rate" value="7">
-        <label>8</label> <input type="radio" id="8" name="rate" value="8">
-        <label>9</label> <input type="radio" id="9" name="rate" value="9">
-        <label>10</label> <input type="radio" id="10" name="rate" value="10"><br><br>
+    <div style="text-align: center;">
+        <h1>
+            <div id="header">"TALK TO ME GOOSE"
+            </div>
+        </h1>
+        <IMG SRC="images/jim.jpg" id='mypic' ALT="MY PIC">
+        <ul>
+            <div id="navbar">
+                <button class="button" onclick="location.href='./index.html'" style="cursor: pointer">HOME</button>
+                <button class="button" onclick="location.href='./about.html'" style="cursor: pointer">ABOUT ME</button>
+                <button class="button" onclick="location.href='portfolio.html'" style="cursor: pointer">EXPERIENCE</button>
+                <button class="button" onclick="location.href='resume.html'" style="cursor: pointer">ACCOMPLISHMENTS</button>
+                <button class="button" onclick="location.href='sitemap.html'" style="cursor: pointer">ABILITIES</button>
+                <button class="button" onclick="location.href='./contact.html'" style="cursor: pointer">CONTACT</button>
+            </div>
+        </ul>
+        <form method="get"><br><br>
+            <p>How good is my website?</p>
+            <label>1</label> <input type="radio" id="1" name="rate" value="1" onclick="alert('Thank you for taking my survey, but only if you gave me an 8 or higher.')">
+            <label>2</label> <input type="radio" id="2" name="rate" value="2" onclick="alert('Thank you for taking my survey, but only if you gave me an 8 or higher.')">
+            <label>3</label> <input type="radio" id="3" name="rate" value="3" onclick="alert('Thank you for taking my survey, but only if you gave me an 8 or higher.')">
+            <label>4</label> <input type="radio" id="4" name="rate" value="4" onclick="alert('Thank you for taking my survey, but only if you gave me an 8 or higher.')">
+            <label>5</label> <input type="radio" id="5" name="rate" value="5" onclick="alert('Thank you for taking my survey, but only if you gave me an 8 or higher.')">
+            <label>6</label> <input type="radio" id="6" name="rate" value="6" onclick="alert('Thank you for taking my survey, but only if you gave me an 8 or higher.')">
+            <label>7</label> <input type="radio" id="7" name="rate" value="7" onclick="alert('Thank you for taking my survey, but only if you gave me an 8 or higher.')">
+            <label>8</label> <input type="radio" id="8" name="rate" value="8" onclick="alert('Thank you for taking my survey, but only if you gave me an 8 or higher.')">
+            <label>9</label> <input type="radio" id="9" name="rate" value="9" onclick="alert('Thank you for taking my survey, but only if you gave me an 8 or higher.')">
+            <label>10</label> <input type="radio" id="10" name="rate" value="10" onclick="alert('Thank you for taking my survey, but only if you gave me an 8 or higher.')"><br><br>
         </form>
-        <br>
+            <div class="container">
+                <select>
+                    <p>To improve my website, I should:</p>
+                    <option value="click" type="dropdown" data-toggle="modal" data-target="#myModal">Click to select</option>
+                    <option value="images" type="dropdown" data-toggle="modal" data-target="#myModal">Add more images.</option>
+                    <option value="simple">Make it simpler/cleaner.</option>
+                    <option value="more">Make it more complex/detailed.</option>
+                    <option value="layout">Use a different layout.</option>
+                    <option value="nothing">Do nothing. It's great how it is.</option><br><br>
+                </select>
+            </div>
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <p>Thank you for your input!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal" no-repeat>Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <p>Please enter your contact information below:</p>
         <div style="width: 500px; margin: 0 auto; text-align: right; position: relative;">
         <img src="images/downarrow.jpg" id='downarrow' alt="downarrow">
@@ -49,8 +73,8 @@
                 <label for="email">Email Address: </label> <input id="email" name="email" placeholder="Enter your email address" required="@" required=".com .org .edu"><br><br>
                 <label for="cell">Cell Phone: </label> <input id="cell" name="cell" placeholder="Enter your cell number" required numeric minlength="10"><br><br>
             </form>
-            </div>
-    <input type="submit" class="button" onclick="alert('Your email has been sent to us. Thank you. We will contact you shortly.')" value="Submit"><br><br>
+        </div>
+        <input type="submit" class="button" onclick="alert('Your email has been sent to us. Thank you. We will contact you never.')" value="Submit"><br><br>
     </div>
 </body>
 </html>
