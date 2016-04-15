@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
     <title>CONTACT INFO FOR MATT POWELL</title>
 </head>
 <body>
@@ -15,18 +15,18 @@
             <div id="header">"TALK TO ME GOOSE"
             </div>
         </h1>
-        <IMG SRC="images/jim.jpg" id='mypic' ALT="MY PIC">
+        <IMG SRC="images/jim.jpg" id='mypic' ALT="MY PIC"><br><br>
         <ul>
             <div id="navbar">
-                <button class="button" onclick="location.href='./index.html'" style="cursor: pointer">HOME</button>
-                <button class="button" onclick="location.href='./about.html'" style="cursor: pointer">ABOUT ME</button>
-                <button class="button" onclick="location.href='portfolio.html'" style="cursor: pointer">EXPERIENCE</button>
-                <button class="button" onclick="location.href='resume.html'" style="cursor: pointer">ACCOMPLISHMENTS</button>
-                <button class="button" onclick="location.href='sitemap.html'" style="cursor: pointer">ABILITIES</button>
-                <button class="button" onclick="location.href='./contact.html'" style="cursor: pointer">CONTACT</button>
+                <button class="button" onclick="location.href='index.html'" style="cursor: pointer">HOME</button>
+                <button class="button" onclick="location.href='portfolio.html'" style="cursor: pointer">PORTFOLIO</button>
+                <button class="button" onclick="location.href='contact.html'" style="cursor: pointer">CONTACT</button>
+                <button class="button" onclick="location.href='resume.html'" style="cursor: pointer">RESUME</button>
+                <button class="button" onclick="location.href='about.html'" style="cursor: pointer">ABOUT ME</button>
+                <button class="button" onclick="location.href='sitemap.html'" style="cursor: pointer">SITE MAP</button>
             </div>
-        </ul>
-        <form method="get"><br><br>
+        </ul><br><br>
+
             <p>How good is my website?</p>
             <label>1</label> <input type="radio" id="1" name="rate" value="1" onclick="alert('Thank you for taking my survey, but only if you gave me an 8 or higher.')">
             <label>2</label> <input type="radio" id="2" name="rate" value="2" onclick="alert('Thank you for taking my survey, but only if you gave me an 8 or higher.')">
@@ -38,17 +38,17 @@
             <label>8</label> <input type="radio" id="8" name="rate" value="8" onclick="alert('Thank you for taking my survey, but only if you gave me an 8 or higher.')">
             <label>9</label> <input type="radio" id="9" name="rate" value="9" onclick="alert('Thank you for taking my survey, but only if you gave me an 8 or higher.')">
             <label>10</label> <input type="radio" id="10" name="rate" value="10" onclick="alert('Thank you for taking my survey, but only if you gave me an 8 or higher.')"><br><br>
-        </form>
+
             <div class="container">
+                <p>To improve my website, I should:</p>
                 <select>
-                    <p>To improve my website, I should:</p>
                     <option value="click" type="dropdown" data-toggle="modal" data-target="#myModal">Click to select</option>
                     <option value="images" type="dropdown" data-toggle="modal" data-target="#myModal">Add more images.</option>
-                    <option value="simple">Make it simpler/cleaner.</option>
-                    <option value="more">Make it more complex/detailed.</option>
-                    <option value="layout">Use a different layout.</option>
-                    <option value="nothing">Do nothing. It's great how it is.</option><br><br>
-                </select>
+                    <option value="simple" type="dropdown" data-toggle="modal" data-target="#myModal">Make it simpler/cleaner.</option>
+                    <option value="more" type="dropdown" data-toggle="modal" data-target="#myModal">Make it more complex/detailed.</option>
+                    <option value="layout" type="dropdown" data-toggle="modal" data-target="#myModal">Use a different layout.</option>
+                    <option value="nothing" type="dropdown" data-toggle="modal" data-target="#myModal">Do nothing. It's great how it is.</option><br><br>
+                </select><br><br><br><br>
             </div>
         <div class="modal fade" id="myModal" role="dialog">
             <div class="modal-dialog">
@@ -62,10 +62,10 @@
                 </div>
             </div>
         </div>
-        <p>Please enter your contact information below:</p>
-        <div style="width: 500px; margin: 0 auto; text-align: right; position: relative;">
-        <img src="images/downarrow.jpg" id='downarrow' alt="downarrow">
-            </div>
+            <p>Please enter your contact information below:</p>
+        <div style="width: 440px; margin: 0 auto; text-align: right; position: relative;">
+            <img src="images/downarrow.jpg" id='downarrow' alt="downarrow">
+        </div>
         <div style="width: 240px; margin: 0 auto; text-align: right; content: center;">
             <form method="get">
                 <label for="firstName">First Name: </label> <input id="firstName" name="first" placeholder="Enter your first name" required minlength="2"><br><br>
