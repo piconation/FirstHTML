@@ -20,7 +20,7 @@
 }
 
 #header {
-    font-size: 40px; font-family: Tahoma;
+    font-size: 40px; font-family: Tahoma; font-weight: bold; padding-top: 20px;
 }
 
 #footer {
@@ -38,20 +38,17 @@
     font-family: 'Indie Flower', normal400;
 }
 
-body {
-    color:darkblue;
-}
-
 .dbluefont {
     color:darkblue;
 }
 
-html {
+body {
     background: url(images/whiteroom.jpg) no-repeat top left;
     background-size: cover;
-    min-height: 100%;
+    min-height: 100% !important;
     min-width: 100%;
     background-attachment: fixed;
+    color: navy;
 }
 
 #email{
@@ -83,11 +80,6 @@ html {
     }
 }
 
-#downarrow {
-    width: 100px;
-    height: 100px;
-}
-
 .label1 {
     padding-right: 50px;
 }
@@ -103,3 +95,6 @@ html {
     flex-direction: row;
 }
 
+#feedback {
+    font-size: 22px;
+}
