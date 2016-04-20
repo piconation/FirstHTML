@@ -1,5 +1,5 @@
 
-#whiteroom {
+#matt-beach {
     position: fixed;
     top: 0;
     left: 0;
@@ -10,7 +10,7 @@
 }
 
 .button {
-    background-color: darkblue;
+    background-color: dodgerblue;
     box-shadow: 0px 6px 5px black;
     border-radius: 20px;
     margin-right: 20px;
@@ -36,19 +36,20 @@
 
 #h1 {
     font-family: 'Indie Flower', normal400;
+    text-shadow: -1px 0 black, 0 1px black, 1 px 0 black, 0 -1px black;
 }
 
-.dbluefont {
-    color:darkblue;
+.p {
+    text-shadow: -1px 0 black, 0 1px black, 1 px 0 black, 0 -1px black;
 }
 
 body {
-    background: url(images/whiteroom.jpg) no-repeat top left;
+    background: url(images/matt-beach.jpg) no-repeat top left;
     background-size: cover;
-    min-height: 100% !important;
+    min-height: 100%;
     min-width: 100%;
     background-attachment: fixed;
-    color: navy;
+    color: black;
 }
 
 #email{
