@@ -1,12 +1,7 @@
 
 #matt-beach {
-    position: fixed;
-    top: 0;
-    left: 0;
-
-    /* Preserve aspet ratio */
-    min-width: 100%;
-    min-height: 100%;
+    -webkit-filter: opacity(70%);
+    filter: opacity(70%);
 }
 
 .button {
@@ -16,7 +11,7 @@
     margin-right: 20px;
     color: white;
     font-size: medium;
-    padding: 10px;
+    padding: 7px;
 }
 
 #header {
@@ -36,20 +31,21 @@
 
 #h1 {
     font-family: 'Indie Flower', normal400;
-    text-shadow: -1px 0 black, 0 1px black, 1 px 0 black, 0 -1px black;
+    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
 }
 
-.p {
-    text-shadow: -1px 0 black, 0 1px black, 1 px 0 black, 0 -1px black;
+div {
+    color: white;
+    text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
 }
 
 body {
     background: url(images/matt-beach.jpg) no-repeat top left;
+    /*background: powderblue;*/
     background-size: cover;
     min-height: 100%;
     min-width: 100%;
     background-attachment: fixed;
-    color: black;
 }
 
 #email{
@@ -76,9 +72,6 @@ body {
 }
 
 @media screen and (max-width: 1000px) {
-    body {
-    background-color: red;
-    }
 }
 
 .label1 {
