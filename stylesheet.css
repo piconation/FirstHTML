@@ -5,17 +5,18 @@
 }
 
 .button {
-    background-color: dodgerblue;
+    background-color: steelblue;
     box-shadow: 0px 6px 5px black;
     border-radius: 20px;
     margin-right: 20px;
+    margin-bottom: 15px;
     color: white;
     font-size: medium;
     padding: 6px;
 }
 
 #header {
-    font-size: 40px; font-family: Tahoma; font-weight: bold; padding-top: 20px;
+    font-size: 40px; font-family: "Arial Narrow"; font-weight: bold; padding-top: 20px;
 }
 
 #footer {
@@ -30,13 +31,15 @@
 }
 
 #h1 {
-    font-family: 'Indie Flower', normal400;
+    font-family: 'Indie Flower';
+    size: 40px;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 div {
     color: black;
     font-weight: bold;
+    font-size: 20px;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
@@ -47,7 +50,7 @@ body {
     min-height: 100%;
     min-width: 100%;
     background-attachment: fixed;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 #email{
@@ -91,6 +94,7 @@ body {
     flex-direction: row;
 }
 
-#feedback {
-    font-size: 22px;
+#bf {
+    font-size: 30px;
+    font-family: "Arial Narrow";
 }

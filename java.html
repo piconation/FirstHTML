@@ -1,33 +1,21 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <script rel="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <meta charset="UTF-8">
 </head>
 <body>
-    <style>
-        #myElement {
-        color: red
-        }
+    <div id="mydiv">
 
-        #myElement {
-        /* I want this color*/
-        color: green;
-        }
-    </style>
-    <div class="container">
-        <table class="table table-bordered">
-            <tr>
-                <td>
-                    <h1 id="myElement" class="text-center">You should <b>not</b> see this text!
-                    </h1>
-                </td>
-            </tr>
-        </table>
     </div>
-    <script>
-        var correctText = 'This is the text that should be displayed';
-        document.getElementById('myElement').innerHTML = correctText;
-    </script>
+    <div id="myexternaldiv">
+
+    </div>
 </body>
+    <script type="text/javascript">
+        var myDiv = document.getElementById('mydiv');
+        myDiv.innerHTML = "Hello World";
+    </script>
+    <script type="text/javascript" src="js.js">
+
+    </script>
 </html>
