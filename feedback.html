@@ -7,7 +7,7 @@
 </head>
 <body>
     <div style="text-align: center;">
-        <div id="navbar">
+        <div>
             <button class="button" onclick="location.href='index.html'" style="cursor: pointer">HOME</button>
             <button class="button" onclick="location.href='portfolio.html'" style="cursor: pointer">PORTFOLIO</button>
             <button class="button" onclick="location.href='feedback.html'" style="cursor: pointer">FEEDBACK</button>
@@ -21,7 +21,7 @@
                 </div>
             </h1>
                 <div id="bf">
-                    <p>We are always looking to improve our site. Please let us know how we can make it better.</p><br>
+                    <p>We are always looking to improve our site.<br>Please let us know how we can make it better.</p><br>
                     <p>How would you rate this website?</p>
                 </div>
                 <label>1</label> <input type="radio" id="1" name="rate" value="1" onclick="alert('Thank you for taking the survey.')">
@@ -46,16 +46,18 @@
                     </select><br><br><br><br>
                 </div>
                 <p id="bf">Have more feedback for us?</p>
-                <p id="bf">Please enter your contact information below: <IMG src="images/downarrow-trans.jpg" width="100" height="100" align="top"></p>
+                <p id="bf">Please enter your contact information below:</p>
                 <div style="width: 350px; margin: 0 auto; padding-right: 150px; text-align: right; align-items: center;">
                     <form>
                         <label for="firstName">First Name: </label> <input id="firstName" name="first" value="" placeholder="Enter your first name" required minlength="2"><br><br>
                         <label for="lastName">Last Name: </label> <input id="lastName" name="last" placeholder="Enter your last name" required minlength="2"><br><br>
                         <label for="email">Email Address: </label> <input id="email" name="email" placeholder="Enter your email address" required accesskey="@" required accesskey=".com"><br><br>
-                        <label for="text">Your feedback: </label> <textarea id="text" name="text" placeholder="Enter your feedback" cols="18" rows="10"></textarea><br><br>
-                        <input type="submit" value="Submit" class="button">
+                        <label for="text" id="feed">Your feedback: </label> <textarea id="text" name="text" placeholder="Enter your feedback" cols="18" rows="10"></textarea><br><br>
+                        <div id="submit"> <input style="cursor: pointer" type="submit" value="SUBMIT" class="button">
+                        </div>
                     </form>
                 </div>
+
         </div>
     </div>
 </body>

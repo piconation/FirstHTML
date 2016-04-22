@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
 </head>
 <body>
-    <div id="mydiv">
+<script>
 
-    </div>
-    <div id="myexternaldiv">
+    var firstname = "Joel";
+    var lastname = "Frasier";
+    var middlename = "Darryl";
+    var nametitle = "Sir";
 
-    </div>
+    function combinename(fname, lname){
+
+        fname += " John";
+        return nametitle + " " fname + " " + middlename + " " + lname;
+    }
+
+    alert(combinename(firstname, lastname));
+
+</script>
 </body>
-    <script type="text/javascript">
-        var myDiv = document.getElementById('mydiv');
-        myDiv.innerHTML = "Hello World";
-    </script>
-    <script type="text/javascript" src="js.js">
-
-    </script>
 </html>
