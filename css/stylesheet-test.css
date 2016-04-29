@@ -16,37 +16,46 @@
 }
 
 #header {
-    font-size: 40px; font-family: "Arial Narrow"; font-weight: bold; padding-top: 20px; color: darkred;
+    font-size: 40px; font-family: "Arial Narrow"; font-weight: bold; padding-top: 20px;
 }
 
-.footer {
-    position: fixed;
-    bottom: 0;
+#footer {
+    position: inherit;
+    bottom:0;
     width:99%;
-    height:50px;
+    height:30px;
+}
+
+#navbar {
+
 }
 
 #h1 {
-    font-family: 'Indie Flower'; font-size: 40px; padding-top: 20px; text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-family: 'Indie Flower';
+    size: 40px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 div {
-    color: darkred;
+    color: black;
     font-weight: bold;
     font-size: 20px;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
-
 body {
-    background: url(images/matt-beach.jpg) no-repeat top left;
+    background: url(../images/matt-beach.jpg) no-repeat top left;
     /*background: powderblue;*/
     background-size: cover;
     min-height: 100%;
     min-width: 100%;
     background-attachment: fixed;
     font-size: 20px;
-    }
+}
+
+#email{
+    color: blue;
+}
 
 @keyframes mypic {
     from {opacity: 0.0}
@@ -86,18 +95,6 @@ body {
 }
 
 #bf {
-    font-size: 25px;
+    font-size: 30px;
     font-family: "Arial Narrow";
 }
-
-
-#feed {
-    float: left;
-    padding-left: 80px;
-}
-
-#submit {
-    align-items: center;
-}
-
-
