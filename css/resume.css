@@ -1,0 +1,43 @@
+
+body {
+    margin: 0;
+}
+
+html {
+    font-family: "Osaka", "Arial Narrow",
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    background-color: #666666;
+}
+
+.header {
+    background-color: #334266;
+    color: #ffffff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.name {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+}
+
+#companies {
+    white-space: nowrap;
+    width: 100%;
+    display: table-cell;
+
+}
+
+.logo {
+    vertical-align: middle;
+    padding: 10px;
+    display: table-cell;
+}
+
+.logo img {
+    max-width: 100%;
+}
+
