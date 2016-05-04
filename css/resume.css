@@ -7,21 +7,24 @@ html {
     font-family: "Osaka", "Arial Narrow", sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    background-color: #666666;
+    background-color: #666665;
 }
 
 .header {
     background-color: #334266;
     color: #ffffff;
-    padding: 30px 0;
+    padding: 0;
     text-align: center;
+    height: 50px;
+    width: 100%;
 }
 
 .name {
-    font-size: 40px;
+    font-size: 30px;
     text-transform: uppercase;
     font-weight: bold;
     margin: 0;
+    padding: 0;
 }
 
 #companies {
@@ -41,3 +44,23 @@ html {
     max-width: 100%;
 }
 
+#exp {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+}
+
+#buttons {
+    float: right;
+    width: 45%;
+    text-align: right;
+    padding: 5px;
+}
+
+#name {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
