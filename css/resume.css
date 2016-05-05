@@ -7,7 +7,11 @@ html {
     font-family: "Osaka", "Arial Narrow", sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    background-color: #666665;
+    background-color: rgba(102, 102, 101, 0.25);
+}
+
+main {
+    margin-top: 70px;
 }
 
 .header {
@@ -22,14 +26,15 @@ html {
     font-size: 30px;
     font-weight: bold;
     margin: 0;
-    padding: 5px;
+    padding-top: 7px;
+    padding-left: 10px;
     float: left;
-    width: 38%;
+    width: 160px;
     font-family: "papyrus", sans-serif;
 }
 
 #companies {
-    white-space: nowrap;
+    white-space: normal;
     width: 100%;
     display: table-cell;
 
@@ -38,7 +43,8 @@ html {
 .logo {
     vertical-align: middle;
     padding: 10px;
-    display: table-cell;
+    display: inline-table;
+    margin: 0px;
 }
 
 .logo img {
@@ -46,21 +52,24 @@ html {
 }
 
 #exp {
-    color: white;
+    color: #334266;
     font-size: 20px;
     text-transform: uppercase;
     margin: 0;
+    padding-left: 10px;
+    text-align: left;
 }
 
 #buttons {
     float: right;
-    width: 38%;
+    width: ;
     text-align: right;
-    padding: 5px;
+    padding-top: 10px;
+    padding-right: 10px;
 }
 
 #Me {
-    width: 22%;
+    width: 100px;
     float: left;
     padding: 5px;
 }
@@ -69,4 +78,22 @@ html {
     border-radius: 35%;
     padding: 10px;
     padding-left: 20px;
+}
+
+#school {
+    color: #334266;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-left: 10px;
+    text-align: left;
+}
+
+#skills {
+    color: #334266;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-left: 10px;
+    text-align: left;
 }
