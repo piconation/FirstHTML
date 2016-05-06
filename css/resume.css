@@ -33,36 +33,20 @@ main {
     font-family: "papyrus", sans-serif;
 }
 
-#companies {
-    white-space: normal;
-    width: 100%;
-    display: table-cell;
-
-}
 
 .logo {
     vertical-align: middle;
     padding: 10px;
     display: inline-table;
-    margin: 0px;
-}
-
-.logo img {
+    margin: 0;
+    border-radius: 50%;
     max-width: 100%;
 }
 
-#exp {
-    color: #334266;
-    font-size: 20px;
-    text-transform: uppercase;
-    margin: 0;
-    padding-left: 10px;
-    text-align: left;
-}
 
 #buttons {
     float: right;
-    width: ;
+    width: 100px;
     text-align: right;
     padding-top: 10px;
     padding-right: 10px;
@@ -80,23 +64,27 @@ main {
     padding-left: 20px;
 }
 
-#school {
+#section {
     color: #334266;
-    font-size: 20px;
+    font-size: 25px;
     text-transform: uppercase;
     margin: 0;
-    padding-left: 10px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     text-align: left;
+    font-family: "papyrus", sans-serif;
 }
 
-#skills {
-    color: #334266;
-    font-size: 20px;
-    text-transform: uppercase;
+#companies {
+    white-space: normal;
+    width: 100%;
+    display: table-cell;
+    padding-left: 30px;
+    padding-bottom: 15px;
     margin: 0;
-    padding-left: 10px;
-    text-align: left;
 }
+
 
 .pie-wrapper {
     height: 1em;
