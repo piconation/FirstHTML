@@ -46,6 +46,7 @@ main {
 
 .logo img {
     max-width: 100%;
+    vertical-align: middle;
     height: auto;
     float: left;
 }
@@ -71,80 +72,74 @@ main {
 }
 
 #section1 {
-    margin-left: 10px;
-    width: 40%;
+    padding-left: 27px;
+    width: 42%;
     float: left;
 }
 
-#experience {
+#companies {
     color: #334266;
     font-size: 22px;
-    margin-left: 10px;
     text-align: left;
     font-family: "papyrus", sans-serif;
     text-decoration: underline;
-    width: 150px;
     position: relative;
 }
 
 #section2 {
     margin-left: 10px;
-    width: 40%;
+    width: 42%;
     float: left;
 }
 
-#education {
+#schools {
     color: #334266;
     font-size: 22px;
-    margin-left: 10px;
     text-align: left;
     font-family: "papyrus", sans-serif;
     text-decoration: underline;
-    width: 150px;
 }
 
 #section3 {
     margin-left: 10px;
-    width: 40%;
+    width: 22%;
     float: left;
 }
 
 #skills {
     color: #334266;
     font-size: 22px;
-    margin-left: 10px;
     text-align: left;
     font-family: "papyrus", sans-serif;
     text-decoration: underline;
-    width: 150px;
 }
 
 #section4 {
     margin-left: 10px;
-    width: 40%;
+    width: 22%;
     float: left;
 }
 
 #projects {
     color: #334266;
     font-size: 22px;
-    margin-left: 10px;
     text-align: left;
     font-family: "papyrus", sans-serif;
     text-decoration: underline;
-    width: 150px;
 }
 
-#companies {
+#logobox {
     width: 85%;
     height: 50px;
     vertical-align: middle;
     display: table;
-    margin-left: 30px;
     margin-top: 25px;
     margin-bottom: 30px;
     margin-right: 30px;
     background-color: white;
+    border: solid;
+    border-radius: 10%;
+    border-color: #334266;
 }
 
 #henry {
@@ -202,6 +197,122 @@ main {
 #ship:hover #kaisha {
     display: table-footer-group;
 }
+
+/* enter hover feature for skills section */
+
+#section5 {
+    margin-left: 10px;
+    width: 42%;
+    float: left;
+}
+
+#schools {
+    color: #334266;
+    font-size: 22px;
+    text-align: left;
+    font-family: "papyrus", sans-serif;
+    text-decoration: underline;
+}
+
+#section6 {
+    margin-left: 10px;
+    width: 42%;
+    float: left;
+}
+
+#schools {
+    color: #334266;
+    font-size: 22px;
+    text-align: left;
+    font-family: "papyrus", sans-serif;
+    text-decoration: underline;
+}
+
+#section7 {
+    margin-left: 10px;
+    width: 42%;
+    float: left;
+}
+
+#schools {
+    color: #334266;
+    font-size: 22px;
+    text-align: left;
+    font-family: "papyrus", sans-serif;
+    text-decoration: underline;
+}
+
+#section8 {
+    margin-left: 10px;
+    width: 42%;
+    float: left;
+}
+
+#schools {
+    color: #334266;
+    font-size: 22px;
+    text-align: left;
+    font-family: "papyrus", sans-serif;
+    text-decoration: underline;
+}
+
+/*
+#section9 {
+    margin-left: 10px;
+    width: 42%;
+    float: left;
+}
+
+#schools {
+    color: #334266;
+    font-size: 22px;
+    text-align: left;
+    font-family: "papyrus", sans-serif;
+    text-decoration: underline;
+}
+
+#section10 {
+    margin-left: 10px;
+    width: 42%;
+    float: left;
+}
+
+#schools {
+    color: #334266;
+    font-size: 22px;
+    text-align: left;
+    font-family: "papyrus", sans-serif;
+    text-decoration: underline;
+}
+
+#section11 {
+    margin-left: 10px;
+    width: 42%;
+    float: left;
+}
+
+#schools {
+    color: #334266;
+    font-size: 22px;
+    text-align: left;
+    font-family: "papyrus", sans-serif;
+    text-decoration: underline;
+}
+
+#section12 {
+    margin-left: 10px;
+    width: 42%;
+    float: left;
+}
+
+#schools {
+    color: #334266;
+    font-size: 22px;
+    text-align: left;
+    font-family: "papyrus", sans-serif;
+    text-decoration: underline;
+}
+*/
 
 /*html, body {
     color: #681;
