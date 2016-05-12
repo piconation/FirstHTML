@@ -14,7 +14,6 @@ html {
 
 main {
     margin-top: 70px;
-    height: 100%;
 }
 
 .header {
@@ -38,9 +37,8 @@ main {
 
 .logo {
     vertical-align: middle;
-    padding: 10px;
     float: left;
-    margin: 0;
+    margin: 15px;
     background-color: white;
 }
 
@@ -72,7 +70,7 @@ main {
 }
 
 #section1 {
-    padding-left: 27px;
+    margin-left: 27px;
     width: 42%;
     float: left;
 }
@@ -87,7 +85,7 @@ main {
 }
 
 #section2 {
-    margin-left: 10px;
+    margin-left: 20px;
     width: 42%;
     float: left;
 }
@@ -101,8 +99,8 @@ main {
 }
 
 #section3 {
-    margin-left: 10px;
-    width: 22%;
+    margin-left: 20px;
+    width: 42%;
     float: left;
 }
 
@@ -115,8 +113,8 @@ main {
 }
 
 #section4 {
-    margin-left: 10px;
-    width: 22%;
+    margin-left: 20px;
+    width: 42%;
     float: left;
 }
 
@@ -129,7 +127,8 @@ main {
 }
 
 #logobox {
-    width: 85%;
+    max-width: 400px;
+    min-width: 100px;
     height: 50px;
     vertical-align: middle;
     display: table;
@@ -254,6 +253,12 @@ main {
     text-align: left;
     font-family: "papyrus", sans-serif;
     text-decoration: underline;
+}
+
+@media screen and (max-width: 200px) {
+    #logobox {
+        width: 100%;
+    }
 }
 
 /*
