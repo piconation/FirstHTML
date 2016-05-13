@@ -144,7 +144,8 @@ main {
 #henry {
     border: 1px solid #ccc;
     display: none;
-    font-size: 10px;
+    font-size: 15px;
+    color: #334266;
     /*margin-top: 10px;
     padding-left: 15px;
     text-align: center;*/
@@ -158,7 +159,8 @@ main {
 #soren {
     border: 1px solid #ccc;
     display: none;
-    font-size: 10px;
+    font-size: 15px;
+    color: #334266;
     /*margin-top: 10px;
     padding-left: 15px;
     text-align: center;*/
@@ -172,7 +174,8 @@ main {
 #sentry {
     border: 1px solid #ccc;
     display: none;
-    font-size: 10px;
+    font-size: 15px;
+    color: #334266;
     /*margin-top: 10px;
     padding-left: 15px;
     text-align: center;*/
@@ -186,7 +189,8 @@ main {
 #kaisha {
     border: 1px solid #ccc;
     display: none;
-    font-size: 10px;
+    font-size: 15px;
+    color: #334266;
     /*margin-top: 10px;
     padding-left: 15px;
     text-align: center;*/
